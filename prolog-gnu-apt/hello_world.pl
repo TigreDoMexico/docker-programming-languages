@@ -1,2 +1,2 @@
-:- initialization(main).
-main :- write('Hello World!'), nl, halt.
+loves(romeo, juliet).
+loves(juliet, romeo) :- loves(romeo, juliet).

@@ -48,6 +48,8 @@ For help, use ?- help(Topic). or ?- apropos(Word).
 ?-
 ```
 
+Ctrl + D to exit or type `halt.`
+
 ## Files
 
 ### hello_world.pl

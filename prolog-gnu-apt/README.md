@@ -31,6 +31,14 @@ under the terms of the GNU General Public License.
 For more information about these matters, see the files named COPYING.
 ```
 
+## Run REPL
+
+```
+docker run --rm -i -t -v "%cd%":/source tigre/prolog-gnu:apt gprolog
+```
+
+Ctrl + D to exit or type `halt.`
+
 ## Compile Hello, World
 
 ```
