@@ -27,6 +27,10 @@ The Glorious Glasgow Haskell Compilation System, version 7.6.3
 
 ## Run Hello, World
 
+Forma A (Windows)
+`docker run -i -t -v ${pwd}:/source nacyot/haskell-ghc:apt`
+
+Forma B
 ```
 $ docker run --rm -i -t -v $(pwd):/source nacyot/haskell-ghc:apt ghc /source/hello_world.hs
 [1 of 1] Compiling Main             ( /source/hello_world.hs, /source/hello_world.o )
