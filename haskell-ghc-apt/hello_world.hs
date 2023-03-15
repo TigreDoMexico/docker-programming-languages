@@ -193,3 +193,22 @@ gerarFuncao x y = x + y
 
 add3 = gerarFuncao 3
 
+{- ############# LAMBDA ############## -}
+
+lambda1 = map (\x -> x * 2) [1..10]
+
+{- ############# IF ############## -}
+
+funcao200 y =
+    if (mod y 2 /= 0)
+        then y
+        else y * 2
+
+{- ############# SWITCH ############## -}
+
+getClass :: Int -> String
+getClass numero = case numero of
+    5 -> "Classe 1"
+    6 -> "Classe 2"
+    _ -> "Classe 3"
+
